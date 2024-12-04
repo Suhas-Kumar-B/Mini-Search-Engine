@@ -5,10 +5,10 @@ from datetime import datetime
 # Function to connect to the MySQL database
 def get_connection():
     return mysql.connector.connect(
-        host="localhost",       # Replace with your MySQL host
-        user="root",            # Replace with your MySQL username
-        password="Suhas.s@5324",# Replace with your MySQL password
-        database="gym_management"
+        host="your_host",       # Replace with your MySQL host
+        user="your_username",            # Replace with your MySQL username
+        password="Your_password",# Replace with your MySQL password
+        database="gym_management"#Use your Database name
     )
 
 # Function to view all members
